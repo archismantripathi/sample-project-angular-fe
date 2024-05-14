@@ -1,0 +1,31 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;  
+}
+
+.form-fields {
+    width: 15rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.register-text {
+    color: #7fa1ff;
+}
