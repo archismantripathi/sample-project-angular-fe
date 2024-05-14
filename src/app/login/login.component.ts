@@ -32,7 +32,6 @@ export class LoginComponent {
     }
     this.showErr = false;
     //post req
-    console.log("im here")
     this.http
       .post("http://localhost:8081/api/login", {
         email: this.loginForm.value.email,
